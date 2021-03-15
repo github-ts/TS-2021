@@ -1,1 +1,0 @@
-start javaw -Xmx128M -jar jave.jar
