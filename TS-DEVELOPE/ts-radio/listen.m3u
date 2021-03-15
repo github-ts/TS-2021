@@ -1,0 +1,5 @@
+#EXTM3U
+
+#EXTINF:-1,ts-radio.com
+
+http://ts-radio.com:8000

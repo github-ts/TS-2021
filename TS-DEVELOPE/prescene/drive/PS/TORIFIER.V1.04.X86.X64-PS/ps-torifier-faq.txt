@@ -1,0 +1,50 @@
+Torifier FAQ
+
+
+What is Torifier?
+When do I need Torifier?
+Why Tor is safer than a regular proxy?
+How is Torifier different from Tor Browser?
+Does Torifier support Tor Hidden Services?
+How do I torify a Windows Store app?
+Can I use torrc to specify Tor configuration options?
+I very much like your Torifier program. Suddenly it pops up with “Your trial period has expired”?
+ 
+What is Torifier?
+Torifier is a Tor bundle and torification tool that lets you tunnel network applications through the Tor network without the need to reconfigure them.
+Top
+ 
+When do I need Torifier?
+Torifier has a large variety of uses. Here are the most common ones:
+Hide your identity (IP address) from the outside world
+Defend yourself against Internet surveillance and network traffic analysis
+Unblock/bypass Internet censorship, access blocked websites
+Use your favourite programs from behind a restrictive firewall
+Top
+ 
+Why Tor is safer than a regular proxy?
+A regular proxy is a server somewhere on the Internet that will simply relay your traffic so that the sites you visit will see the IP address of the proxy instead of your actual IP address. But simple proxy servers also create a single point of failure. The owner of the proxy knows who you are and where you browse on the Internet. They can see your traffic as it passes through their server. You have to trust the proxy owner isn't doing any number of things, such as watching your traffic or recording your personal details. With Tor, your traffic passes through at least 3 special servers called "Tor relays" before arriving to the destination. Because there's a separate layer of encryption for each of the three relays, the Tor network does not even know, what you are sending into it. So unlike with a regular proxy, you only need to trust the Tor client running on your local computer.
+Top
+ 
+How is Torifier different from Tor Browser?
+Tor Browser is sufficient if a Web browser is the only program you need to use through Tor, and if it is OK with you to use a separate Web browser for Tor (in addition to a regular Web browser that you use for non-anonymous connections). If you need to tunnel other types of applications than Web browser through Tor or if you prefer to use your regular Web browser then you should consider Torifier.
+Top
+ 
+Does Torifier support Tor Hidden Services?
+Torifier fully supports Tor Hidden Services. All torified programs will be able to connect to a Tor Hidden Service. Torifier can be also configured to emulate system-wide support for .onion names meaning any program (including the ones not selected for torification) will be able to connect to a Tor Hidden Service.
+Top
+ 
+How do I torify a Windows Store app?
+You cannot specify only a particular Windows store app. To torify all Windows Store apps, specify WWAHost.exe (located in System32). when the "Torify All Programs" option is on, Windows Store apps will be also torified.
+Top
+ 
+Can I use torrc to specify Tor configuration options?
+You can specify additional Tor configuration options in the file torrc which is located in the user's AppData folder. On Windows 7, the file path is: %SystemDrive%\Users\<user name>\AppData\Local\Torifier\torrc. For changes to take effect, you will have to restart Torifier.
+
+Torifier defines some Tor configuration options through command line which take precedence over the user-defined options in torrc. You can see these predefined settings by looking at the command line arguments of tor.exe. This can be done e.g. using Process Explorer.
+Top
+ 
+I very much like your Torifier program. Suddenly it pops up with “Your trial period has expired”?
+This problem arises when you try to use Torifier from a Windows account which is different from the one that installed the program. Then, in order to activate Torifier, use the following product key: 7TMU-QVWK-RMPU-YAIA.
+Top
+Copyright © Serguei Birj, All rights Reserved.

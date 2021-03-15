@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /ts-archive
+Disallow: /ts-modules
+Disallow: /ts-listing
+Allow: /
+Sitemap: http://thomasschilb.online/sitemap.xml
