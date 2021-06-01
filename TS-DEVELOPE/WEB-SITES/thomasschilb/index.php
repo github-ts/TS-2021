@@ -1,0 +1,273 @@
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<meta content="en-us" http-equiv="Content-Language">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+<!-- <link rel="icon" type="image/png" href="http://thomasschilb.us.to/favicon.png"> -->
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<meta name="author" content="Thomas Schilb">
+<meta name="publisher" content="Thomas Schilb">
+<meta name="copyright" content="© 2021 TS. All Rights Reserved.">
+<meta name="description" content="Chat, Radio, Repository, Podcast, Contact">
+<meta name="keywords" content="thomas, schilb, ts, tsc, private homepage, develope, code, design, music">
+<meta name="robots" content="all, index, follow"> 
+<meta name="googlebot" content="all, index, follow">
+<meta name="pagerank" content="10"> 
+<meta name="msnbot" content="all,index,follow"> 
+<meta name="revisit" content="2 Days"> 
+<meta name="revisit-after" content="2 Days"> 
+<meta name="alexa" content="100">
+<base target="_self">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+<style type="text/css">
+/* HYPERLINK */
+a {
+	color: #808080;
+	text-decoration: none;
+}
+a:visited {
+	color: #808080;
+}
+a:active {
+	color: #808080;
+}
+a:hover {
+	color: #56D4FF;
+}
+
+/* GOOGLE FONTS */
+
+font {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 18pt;
+}
+
+/* TS.TABLE */
+
+#ts-table {
+  /*font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;*/
+  border-collapse: collapse;
+}
+
+#ts-table td, #tstable th {
+  border: 0px solid #333333;
+  padding: 8px;
+}
+
+#ts-table tr:nth-child(odd){background-color: #101010;}
+
+#ts-table tr:nth-child(even){background-color: #202020;}
+
+#ts-table tr:hover {color: #FFF; background-color: #222222;}
+
+#ts-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #333333;
+  color: white;
+}
+
+/* TS.STYLES */
+
+.ts-bgcolor-333333 {
+	background-color: #333333;
+}
+.ts-header {
+	background-color: #000000;
+	color: #56d4ff;
+	font-size: 45pt;
+}
+.ts-footer {
+	text-align: center;
+	font-size: 18pt;
+}
+.ts-style_idx1 {
+	font-size: 18pt;
+}
+.ts-style_idx3 {
+	font-size: 18pt;
+	color: #FFFFFF;
+}
+.ts-style_idx4 {
+	text-align: center;
+	font-size: 18pt;
+	font-family: "Roboto Mono";
+	color: #56d4ff;
+}
+.ts-style_idx5 {
+	font-size: 18pt;
+	font-family: "Roboto Mono";
+	color: #808080;
+}
+.ts-style_idx6 {
+	font-family: "Roboto Mono";
+}
+.ts-style_idx7 {
+	font-size: 18pt;
+	color: #FFFFFF;
+	font-family: "Roboto Mono";
+}
+.ts-style_idx8 {
+	background-color: #000000;
+	color: #56d4ff;
+	font-size: 45pt;
+	font-family: "Roboto Mono";
+}
+.ts-style_idx9 {
+	color: #808080;
+}
+.ts-style_idx11 {
+	font-size: 18pt;
+	background-color: #000000;
+}
+.ts-style_idx12 {
+	font-size: 18pt;
+	font-family: "Roboto Mono";
+}
+.ts-style_idx17 {
+	text-decoration: none;
+}
+.ts2-style1 {
+	font-size: 18pt;
+	font-family: "Roboto Mono";
+	text-align: center;
+}
+.ts2-style2 {
+	font-size: 18pt;
+	font-family: "Roboto Mono";
+	text-align: center;
+	color: #56d4ff;
+	background-color: #000000;
+}
+.ts2-style5 {
+	text-align: center;
+	color: #56d4ff;
+	font-size: 45pt;
+	font-family: "Roboto Mono";
+}
+.ts2-style6 {
+	font-size: 23pt;
+}
+.ts2-style7 {
+	font-size: 18pt;
+	color: #FFFFFF;
+	font-family: "Roboto Mono";
+	text-align: left;
+}
+.ts2-style8 {
+	font-family: "Roboto Mono";
+	text-align: right;
+}
+.ts2-style13 {
+	background-color: #202020;
+	color: #56d4ff;
+	font-size: 23pt;
+	font-family: "Roboto Mono";
+}
+.ts3-style1 {
+	border-width: 0px;
+}
+.ts3-style2 {
+	font-family: "Roboto Mono";
+	text-align: right;
+	font-size: 23pt;
+}
+.ts3-style3 {
+	font-size: 23pt;
+	font-family: "Roboto Mono";
+	text-align: center;
+}
+.menu-23pt {
+	background-color: #202020;
+	color: #56d4ff;
+	font-size: 23pt;
+	font-family: "Roboto Mono";
+	text-align: center;
+}
+.ts4-style1 {
+	font-size: 23pt;
+	font-family: "Roboto Mono";
+	text-align: left;
+}
+.ts4-style2 {
+	font-family: "Roboto Mono", monospace;
+	font-size: 23pt;
+}
+.ts4-style3 {
+	font-size: 23pt;
+	font-family: "Roboto Mono";
+	text-align: center;
+	color: #56D4FF;
+	background-color: #000000;
+}
+.ts4-style4 {
+	font-size: 18pt;
+	color: #FFFFFF;
+	font-family: "Roboto Mono";
+	text-align: left;
+	background-color: #222222;
+}
+.ts4-style5 {
+	color: #56D4FF;
+}
+.auto-style1 {
+	font-family: "Roboto Mono";
+	text-align: right;
+	font-size: 23pt;
+	background-color: #202020;
+}
+.auto-style2 {
+	color: #FFFFFF;
+}
+</style>
+<base target="_blank">
+<title>TS | Thomas Schilb</title>
+</head>
+
+<body style="color: #808080; margin: 0; background-color: #000000">
+
+<table cellpadding="25" cellspacing="0" class="ts-bgcolor-333333" style="width: 100%">
+	<tr>
+		<td id="F1F" class="auto-style1" colspan="5">2021.V1.0REV3-TS</td>
+	</tr>
+<font>
+
+	<tr>
+		<td class="ts-style_idx8" colspan="5">
+		<table cellpadding="0" cellspacing="0" style="width: 100%">
+			<tr>
+				<td style="width: 209px">
+				<a href="?to=welcome" target="_self" title="Link Me!">
+				<img alt="" height="256" src="img/ts-gear.png" width="256" class="ts3-style1"></a></td>
+				<td class="ts2-style5">TS <span class="auto-style2">| Thomas Schilb</span></td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+	<tr>
+	
+		<td class="menu-23pt">
+		<a href="http://thomasschilb.chat:9000/" target="_blank">Chat</a></td>
+		
+		<td class="menu-23pt">
+		<a href="http://radio.thomasschilb.online" target="_blank">Radio</a></td>
+
+		<td class="menu-23pt">
+		<a href="http://repo.thomasschilb.online/" target="_blank">Repository</a></td>
+		
+		<td class="menu-23pt">
+		<a href="https://www.mixcloud.com/thomasschilb/" target="_blank">Podcast</a></td>
+		
+		<td class="menu-23pt">
+		<a href="mailto:thomas_schilb@outlook.com" target="_blank">Contact</a></td>
+
+	</tr>
+	<tr>
+		<td class="ts4-style3" colspan="5">
+		<br class="ts-style_idx9"><span class="ts-style_idx9">&copy; 2021 TS. ALL 
+		RIGHTS RESERVED.</span></td>
+	</tr>
+</table>
+
+</html>

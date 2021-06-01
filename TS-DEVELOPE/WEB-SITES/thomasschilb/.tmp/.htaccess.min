@@ -1,0 +1,81 @@
+Options All +Indexes +FollowSymlinks
+
+AddDefaultCharset UTF-8
+DefaultLanguage en-US
+
+ServerSignature Off
+SetEnv SERVER_ADMIN thomas_schilb@outlook.com
+
+# IndexIgnore *.zip *.mp4 *.pdf *.com *.bat *.cmd
+# IndexOptions +FancyIndexing FoldersFirst SuppressIcon
+# IndexOptions FancyIndexing FoldersFirst NameWidth=* DescriptionWidth=* SuppressIcon
+IndexOptions FancyIndexing NameWidth=* SuppressIcon FoldersFirst
+
+RewriteEngine on
+# RewriteCond %{HTTP_HOST} ^www\.
+# RewriteCond %{HTTPS}s ^on(s)|off
+# RewriteCond http%1://%{HTTP_HOST} ^(https?://)(www\.)?(.+)$
+# RewriteRule ^ %1%3%{REQUEST_URI} [R=301,L]
+
+# Change default directory page
+# DirectoryIndex index.php
+
+# Prevent viewing of .htaccess file
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+# HEADER
+
+HeaderName /ftp/.header.html
+
+# FOOTER
+
+# ReadmeName /.footer.html
+
+# ICON
+
+AddIcon             /drive/.icons/7z.gif    	.7z
+AddIcon             /drive/.icons/nfo.gif   	.nfo
+AddIcon             /drive/.icons/nfo.gif   	.NFO
+AddIcon             /.icons/msg.gif   	.msg
+
+AddType 	application/octet-stream 	rtf txt pdf docx doc nfo com exe html htm 7z zip rar
+
+# DESCRIPTION: NFO
+
+AddDescription 		"Welcome Message" 	welcome.msg
+AddDescription 		"Initial ASCII" 	TS.NFO
+
+# DESCRIPTION: RELEASES
+
+AddDescription 		"Advanced.SystemCare.Pro.v13.4.0.245-TDS" 				tds-asc.7z
+AddDescription 		"CCleaner.v5.58.7209-TDS" 								tds-ccleaner.7z
+AddDescription 		"Driver.Genius.Pro.v17.0.0.137-TDS" 					tds-drivergenius.7z
+AddDescription 		"EditPlus.v5.30.2542-TDS" 								tds-editplus.7z
+AddDescription 		"FlashFXP.v5.40.3970-TDS" 								tds-flashfxp.7z
+AddDescription 		"Goldwave.Editor.Pro.v10.5.5-TDS" 						tds-goldwave.7z
+AddDescription 		"Malwarebytes.Anti.Exploit.Premium.v1.13.1.117-TDS"		tds-mae.7z
+AddDescription 		"mIRC.v7.61-TDS" 										tds-mirc.7z
+AddDescription 		"Systemtools.for.Windows.10-TDS" 						tds-systemtools.7z
+AddDescription 		"TreeSize.v4.4.1.150-TDS" 								tds-treesize.7z
+AddDescription 		"uTorrent.Pro.v3.5.5.45608-TDS" 						tds-utorrent.7z
+AddDescription 		"VideoMeld.v1.62-TDS" 									tds-videomeld.7z
+AddDescription 		"Winamp.v5.8.3660.Beta-TDS" 							tds-winamp.7z
+AddDescription 		"WinHex.v19.9-TDS" 										tds-winhex.7z
+AddDescription 		"WinRAR.v5.90-TDS" 										tds-winrar.7z
+
+# DESCRIPTION: RELEASES: EXCLUSIVE
+
+AddDescription 		"<I>Exclusive: 7-Zip.v19.00-TDS</I>" 							tds-7zip.7z
+AddDescription 		"<I>Exclusive: BitchX.v1.0c11-TDS</I>" 							tds-bitchx.7z
+AddDescription 		"<I>Exclusive: Blackbox.Window.Manager.for.Windows-TDS</I>" 	tds-blackbox.7z
+AddDescription      "<I>Exclusive: jane.v1.74-TDS</I>"								tds-jane.7z
+AddDescription 		"<I>Exclusive: Windows.SysInternals.2020-TDS</I>"				tds-sysinternals.7z
+AddDescription 		"<I>Exclusive: XDCCCatcher.PRO.v2.6.Beta3-TDS</I>" 				tds-xdcccatcher.7z
+
+# DESCRITION: BIG FILE
+
+AddDescription 		"Autodesk.Autocad.2020-TDS" 									tds-autocad.7z
+AddDescription 		"FL.Studio.Producer.Edition.v20.6.0.1458.Signature.Bundle-TDS" 	tds-flstudio.7z
